@@ -44,6 +44,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Acquisition_Plan -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Acquisition_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Project_Plan"/>
         <rdfs:isDefinedBy>The integrated acquisition strategy that enables a program or project to meet its mission objectives and provides the best value to NASA.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -52,6 +53,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Analysis_of_Alternatives -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Analysis_of_Alternatives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Design_Documentation"/>
         <rdfs:isDefinedBy>A formal analysis method that compares alternative approaches by estimating their ability to satisfy mission requirements through an effectiveness analysis and by estimating their LCCs through cost analysis. The results of these two analyses are used together to produce a cost-effectiveness comparison that allows decision makers to assess the relative value or potential programmatic returns of the alternatives.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -69,6 +71,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contract -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contract">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Formulation_Agreement"/>
         <rdfs:isDefinedBy>A mutually binding legal relationship obligating the seller to furnish the supplies or services (including construction) and the buyer to pay for them. It includes all types of commitments that obligate the Government to an expenditure of appropriated funds and that, except as otherwise authorized, are in writing.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -77,6 +80,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Practitioner(s)"/>
         <rdfs:isDefinedBy>This term refers to the company or organization responsible for fulfilling the system acquisition contract requirements. An alternative could be solution provider.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -85,7 +89,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor_HSI_Lead -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor_HSI_Lead">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Practitioner(s)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor"/>
         <rdfs:isDefinedBy>Contractor person responsible for planning, coordinating, and executing the HSI efforts; serves as the contractor&apos;s HSI single point-of-contact.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -94,7 +98,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor_HSI_Team -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor_HSI_Team">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Practitioner(s)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor"/>
         <rdfs:isDefinedBy>Refers to the contractor (typically a prime contractor) HSI team responsible for performing HSI activities under a systems acquisition contract. An extended HSI team may also include associate contractor, subcontractor, and supplier HSI personnel.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -111,6 +115,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Decision_Authority -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Decision_Authority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Programmatic_Authority"/>
         <rdfs:isDefinedBy>The individual authorized by the Agency to make important decisions on programs and projects under their authority.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -172,7 +177,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Engineering_Requirements -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Engineering_Requirements">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Programmatic_Requirements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program_Requirements"/>
         <rdfs:isDefinedBy>Requirements defined to achieve programmatic requirements and relating to the application of engineering principles, applied science, or industrial techniques.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -205,6 +210,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Government-Industry_Data_Exchange_Program -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Government-Industry_Data_Exchange_Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program"/>
         <rdfs:isDefinedBy>A cooperative information-sharing program between the U.S. Government, Canadian Government, and industry participants. The goal of GIDEP is to ensure that only reliable and conforming parts, materials, and software are in use on all Government programs and operations.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -257,6 +263,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Plan -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Project_Plan"/>
         <rdfs:isDefinedBy>The HSIP is project-specific plan required by NASA policy for Projects, Single-Project Programs, and Tightly-Coupled Programs. The HSIP documents the strategy for and planned implementation of HSI through a particular project&apos;s life cycle.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -353,6 +360,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Institutional_Authority -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Institutional_Authority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Programmatic_Authority"/>
         <rdfs:isDefinedBy>Institutional Authority encompasses all those organizations and authorities not in the Programmatic Authority. This includes Engineering, Safety and Mission Assurance, and Health and Medical organizations; Mission Support organizations; and Center Directors.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -361,6 +369,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Integration_Plan -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Integration_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Project_Plan"/>
         <rdfs:isDefinedBy>The integration and verification strategies for a project interface with the system design and decomposition into the lower-level elements. The integration plan is structured to bring the elements together to assemble each subsystem and to bring all of the subsystems together to assemble the system/product.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -470,6 +479,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Operations_Concept -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Operations_Concept">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Design_Documentation"/>
         <rdfs:isDefinedBy>A description of how the flight system and the ground system are used together to ensure that the concept of operation is reasonable. This might include how mission data of interest, such as engineering or scientific data, are captured, returned to Earth, processed, made available to users, and archived for future reference.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -543,6 +553,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk_Assessment -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk_Assessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk_Management"/>
         <rdfs:isDefinedBy>An evaluation of a risk item that determines: (1) what can go wrong, (2) how likely is it to occur, (3) what the consequences are, (4) what uncertainties are associated with the likelihood and consequences, and (5) what the mitigation plans are.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -584,6 +595,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Standard_Practice -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Standard_Practice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Activities"/>
         <rdfs:isDefinedBy>The recommended process to be followed in implementing and executing work for a program (i.e., HSI efforts for a program) against which other practices are measured. For HSI, best practices are determined by a broad-based group of DoD and contractor SMEs, who are experienced in the practice and application of HSI on a variety of acquisition programs.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -592,6 +604,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Standards -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Standards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Design_Documentation"/>
         <rdfs:isDefinedBy>Formal documents that establish a norm, requirement, or basis for comparison, a reference point to measure or evaluate against. A technical standard, for example, establishes uniform engineering or technical criteria, methods, processes, and practices.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -608,6 +621,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Supportability -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Supportability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Maintainability_and_Supportability"/>
         <rdfs:isDefinedBy>Supportability is the capability of a total system design to support operations and readiness needs throughout the life-cycle of a system at an affordable cost. It provides a means of assessing the suitability of a total system design for a set of operational needs within the intended operations and support environment.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -640,6 +654,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Technical_Authority -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Technical_Authority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Programmatic_Authority"/>
         <rdfs:isDefinedBy>Part of NASA&apos;s system of checks and balances that provides independent oversight of programs and projects in support of safety and mission success through the selection of individuals at delegated levels of authority. These individuals are the Technical Authorities.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -657,6 +672,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Tightly_Coupled_Programs -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Tightly_Coupled_Programs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program"/>
         <rdfs:isDefinedBy>Programs with multiple projects that execute portions of a mission(s). No single project is capable of implementing a complete mission. Typically, multiple NASA Centers contribute to the program. Individual projects may be managed at different Centers.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -709,6 +725,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Approval_(for_implementation) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Approval_(for_implementation)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Implementation"/>
         <rdfs:isDefinedBy>Acknowledgment by the Decision Authority that the program/project has met stakeholder expectations and Formulation requirements and is ready to proceed to Implementation. By approving a program/project, the Decision Authority commits the budget resources necessary to continue into Implementation.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -726,6 +743,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Baseline_(general_context) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Baseline_(general_context)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Design_Documentation"/>
         <rdfs:isDefinedBy>An agreed-to set of requirements, cost, schedule, designs, documents, etc., that will have changes controlled through a formal approval and monitoring process.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -734,6 +752,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Concept_of_Operations_(ConOps) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Concept_of_Operations_(ConOps)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Design_Documentation"/>
         <rdfs:isDefinedBy>Developed early in Pre-Phase A, the ConOps describes the overall high-level concept of how the system will be used to meet stakeholder expectations, usually in a time-sequenced manner. It describes the system from an operational perspective and helps facilitate an understanding of the system goals.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -760,6 +779,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Funding_(budget_authority) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Funding_(budget_authority)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Programmatic_Authority"/>
         <rdfs:isDefinedBy>The authority provided by law to incur financial obligations that will result in expenditures. There are four basic forms of budget authority, but only two are applicable to NASA: appropriations and spending authority from offsetting collections.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -803,6 +823,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Key_Performance_Parameter_(KPP) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Key_Performance_Parameter_(KPP)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Metric"/>
         <rdfs:isDefinedBy>Those capabilities or characteristics (typically engineering-based or related to health and safety or operational performance) considered most essential for successful mission accomplishment. They characterize the major drivers of operational performance, supportability, and interoperability.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -855,6 +876,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program_(Project)_Team -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program_(Project)_Team">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Stakeholder"/>
         <rdfs:isDefinedBy>All participants in program (project) formulation and implementation. This includes all direct reports and others that support meeting program (project) responsibilities.</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -872,6 +894,7 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Systems_Engineering_Management_Plan_(SEMP) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Systems_Engineering_Management_Plan_(SEMP)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Design_Documentation"/>
         <rdfs:isDefinedBy>The SEMP identifies the roles and responsibility interfaces of the technical effort and specifies how those interfaces will be managed. The SEMP is the vehicle that documents and communicates the technical approach, including the application of the common technical processes; resources to be used; and the key technical tasks, activities, and events along with their metrics and success criteria.</rdfs:isDefinedBy>
     </owl:Class>
     
