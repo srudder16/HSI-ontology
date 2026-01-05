@@ -1,0 +1,640 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology/"
+     xml:base="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Acceptable_Risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Acceptable_Risk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Acquisition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Acquisition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Acquisition_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Acquisition_Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Analysis_of_Alternatives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Analysis_of_Alternatives"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Configuration_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Configuration_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contract -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contract"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor_HSI_Lead -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor_HSI_Lead"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor_HSI_Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Contractor_HSI_Team"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Critical_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Critical_Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Decision_Authority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Decision_Authority"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Decommissioning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Decommissioning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Derived_Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Derived_Requirements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Design_Documentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Design_Documentation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Development_Costs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Development_Costs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Disposal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Disposal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Domain-Specific_System_Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Domain-Specific_System_Requirements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Engineering_Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Engineering_Requirements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Environmental_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Environmental_Impact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Formulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Formulation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Formulation_Agreement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Formulation_Agreement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#GIDEP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#GIDEP"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI-Related_Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI-Related_Requirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Activities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Activities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Issues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Issues"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Lead -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Lead"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Metrics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Program"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Programmatic_Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Programmatic_Requirements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Risk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Task"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Working_Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Working_Group"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Habitability_and_Environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Habitability_and_Environment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human-Centered_Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human-Centered_Design"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human_Performance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human_Performance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human_Performance_Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human_Performance_Requirements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Implementation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Implementation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Institutional_Authority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Institutional_Authority"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Integration_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Integration_Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Interface_Control_Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Interface_Control_Document"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Key_Decision_Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Key_Decision_Point"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Lesson_Learned -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Lesson_Learned"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Life-Cycle_Review -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Life-Cycle_Review"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Maintainability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Maintainability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Maintainability_and_Supportability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Maintainability_and_Supportability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Metric"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Mission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Mission"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Mission_Concept_Review -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Mission_Concept_Review"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Mission_Definition_Review -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Mission_Definition_Review"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Operational_Readiness_Review -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Operational_Readiness_Review"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Operations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Operations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Operations_Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Operations_Concept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Orbital_Debris -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Orbital_Debris"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program_Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program_Requirements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Programmatic_Authority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Programmatic_Authority"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Project_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Project_Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk-Informed_Decision_Making -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk-Informed_Decision_Making"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk_Assessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk_Assessment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Risk_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Safety"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Single-Project_Programs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Single-Project_Programs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Stakeholder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Stakeholder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Standard_Practice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Standard_Practice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Standards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Standards"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Success_Criteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Success_Criteria"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Supportability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Supportability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Systems_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Systems_Engineering"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Tailoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Tailoring"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Technical_Authority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Technical_Authority"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Technology_Readiness_Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Technology_Readiness_Level"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Tightly_Coupled_Programs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Tightly_Coupled_Programs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Training"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#User"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Validation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Validation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Verification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Verification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Waiver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Waiver"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Approval_(for_implementation) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Approval_(for_implementation)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Baseline_(document_context) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Baseline_(document_context)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Baseline_(general_context) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Baseline_(general_context)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Concept_of_Operations_(ConOps) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Concept_of_Operations_(ConOps)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Critical_Design_Review_(CDR) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Critical_Design_Review_(CDR)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Flight_Readiness_Review_(FRR) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Flight_Readiness_Review_(FRR)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Funding_(budget_authority) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Funding_(budget_authority)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Practitioner(s) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#HSI_Practitioner(s)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human-in-the-loop_(HITL) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human-in-the-loop_(HITL)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human_Factors_Engineering_(HFE) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human_Factors_Engineering_(HFE)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human_Systems_Integration_(HSI) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Human_Systems_Integration_(HSI)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Key_Performance_Parameter_(KPP) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Key_Performance_Parameter_(KPP)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Life-Cycle_Cost_(LCC) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Life-Cycle_Cost_(LCC)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Measures_of_Effectiveness_(MOE) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Measures_of_Effectiveness_(MOE)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Measures_of_Performance_(MOP) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Measures_of_Performance_(MOP)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Preliminary_(document_context) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Preliminary_(document_context)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Preliminary_Design_Review_(PDR) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Preliminary_Design_Review_(PDR)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program_(Project)_Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Program_(Project)_Team"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#System_Requirements_Review_(SRR) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#System_Requirements_Review_(SRR)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Systems_Engineering_Management_Plan_(SEMP) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Systems_Engineering_Management_Plan_(SEMP)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Technical_Performance_Measures_(TPM) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology#Technical_Performance_Measures_(TPM)"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
