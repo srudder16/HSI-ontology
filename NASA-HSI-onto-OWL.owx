@@ -1,0 +1,1117 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology"
+     versionIRI="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/NASA-HSI-ontology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Acceptable_Risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acquisition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acquisition_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analysis_of_Alternatives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Configuration_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contractor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contractor_HSI_Lead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contractor_HSI_Team"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critical_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decision_Authority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decommissioning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Derived_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Design_Documentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Development_Costs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain-Specific_System_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engineering_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formulation_Agreement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Government-Industry_Data_Exchange_Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI-Related_Requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Issues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Lead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Metrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Programmatic_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Working_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habitability_and_Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human-Centered_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Performance_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Implementation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institutional_Authority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integration_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interface_Control_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Key_Decision_Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lesson_Learned"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Life-Cycle_Review"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maintainability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maintainability_and_Supportability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mission_Concept_Review"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mission_Definition_Review"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operational_Readiness_Review"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operations_Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orbital_Debris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programmatic_Authority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risk-Informed_Decision_Making"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risk_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risk_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Single-Project_Programs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stakeholder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standard_Practice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Success_Criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supportability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Systems_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tailoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technical_Authority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technology_Readiness_Level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tightly_Coupled_Programs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Training"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Approval_(for_implementation)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baseline_(document_context)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baseline_(general_context)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept_of_Operations_(ConOps)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critical_Design_Review_(CDR)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flight_Readiness_Review_(FRR)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Funding_(budget_authority)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HSI_Practitioner(s)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human-in-the-loop_(HITL)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Factors_Engineering_(HFE)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Systems_Integration_(HSI)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Key_Performance_Parameter_(KPP)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Life-Cycle_Cost_(LCC)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measures_of_Effectiveness_(MOE)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measures_of_Performance_(MOP)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preliminary_(document_context)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preliminary_Design_Review_(PDR)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_(Project)_Team"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Requirements_Review_(SRR)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Systems_Engineering_Management_Plan_(SEMP)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technical_Performance_Measures_(TPM)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Acceptable_Risk"/>
+        <Class IRI="#Risk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acquisition"/>
+        <Class IRI="#HSI_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acquisition_Plan"/>
+        <Class IRI="#Project_Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analysis_of_Alternatives"/>
+        <Class IRI="#Design_Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Configuration_Management"/>
+        <Class IRI="#Systems_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contract"/>
+        <Class IRI="#Formulation_Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contractor"/>
+        <Class IRI="#HSI_Practitioner(s)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contractor_HSI_Lead"/>
+        <Class IRI="#Contractor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contractor_HSI_Team"/>
+        <Class IRI="#Contractor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decision_Authority"/>
+        <Class IRI="#Programmatic_Authority"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decommissioning"/>
+        <Class IRI="#HSI_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Derived_Requirements"/>
+        <Class IRI="#Program_Requirements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Development_Costs"/>
+        <Class IRI="#Life-Cycle_Cost_(LCC)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposal"/>
+        <Class IRI="#HSI_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domain-Specific_System_Requirements"/>
+        <Class IRI="#Program_Requirements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engineering_Requirements"/>
+        <Class IRI="#Program_Requirements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Government-Industry_Data_Exchange_Program"/>
+        <Class IRI="#Program"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI-Related_Requirement"/>
+        <Class IRI="#Program_Requirements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Issues"/>
+        <Class IRI="#HSI_Risk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Lead"/>
+        <Class IRI="#HSI_Practitioner(s)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Metrics"/>
+        <Class IRI="#Metric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Plan"/>
+        <Class IRI="#Project_Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Program"/>
+        <Class IRI="#Program"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Programmatic_Requirements"/>
+        <Class IRI="#Program_Requirements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Risk"/>
+        <Class IRI="#Risk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Task"/>
+        <Class IRI="#HSI_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Working_Group"/>
+        <Class IRI="#HSI_Practitioner(s)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Performance"/>
+        <Class IRI="#HSI_Metrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Performance_Requirements"/>
+        <Class IRI="#Program_Requirements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Implementation"/>
+        <Class IRI="#HSI_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Institutional_Authority"/>
+        <Class IRI="#Programmatic_Authority"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integration_Plan"/>
+        <Class IRI="#Project_Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interface_Control_Document"/>
+        <Class IRI="#Design_Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maintainability"/>
+        <Class IRI="#Metric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mission_Concept_Review"/>
+        <Class IRI="#Life-Cycle_Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mission_Definition_Review"/>
+        <Class IRI="#Life-Cycle_Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operational_Readiness_Review"/>
+        <Class IRI="#Life-Cycle_Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operations_Concept"/>
+        <Class IRI="#Design_Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risk-Informed_Decision_Making"/>
+        <Class IRI="#Risk_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risk_Assessment"/>
+        <Class IRI="#Risk_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Single-Project_Programs"/>
+        <Class IRI="#Program"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard_Practice"/>
+        <Class IRI="#HSI_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standards"/>
+        <Class IRI="#Design_Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supportability"/>
+        <Class IRI="#Maintainability_and_Supportability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technical_Authority"/>
+        <Class IRI="#Programmatic_Authority"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology_Readiness_Level"/>
+        <Class IRI="#Metric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tightly_Coupled_Programs"/>
+        <Class IRI="#Program"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Training"/>
+        <Class IRI="#HSI_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation"/>
+        <Class IRI="#HSI_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verification"/>
+        <Class IRI="#HSI_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Approval_(for_implementation)"/>
+        <Class IRI="#Implementation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseline_(document_context)"/>
+        <Class IRI="#Design_Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseline_(general_context)"/>
+        <Class IRI="#Design_Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concept_of_Operations_(ConOps)"/>
+        <Class IRI="#Design_Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Critical_Design_Review_(CDR)"/>
+        <Class IRI="#Life-Cycle_Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flight_Readiness_Review_(FRR)"/>
+        <Class IRI="#Life-Cycle_Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funding_(budget_authority)"/>
+        <Class IRI="#Programmatic_Authority"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HSI_Practitioner(s)"/>
+        <Class IRI="#Program_(Project)_Team"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Factors_Engineering_(HFE)"/>
+        <Class IRI="#Systems_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Systems_Integration_(HSI)"/>
+        <Class IRI="#Program_Requirements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Key_Performance_Parameter_(KPP)"/>
+        <Class IRI="#Metric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measures_of_Effectiveness_(MOE)"/>
+        <Class IRI="#Metric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measures_of_Performance_(MOP)"/>
+        <Class IRI="#Metric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preliminary_(document_context)"/>
+        <Class IRI="#Design_Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preliminary_Design_Review_(PDR)"/>
+        <Class IRI="#Life-Cycle_Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program_(Project)_Team"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Requirements_Review_(SRR)"/>
+        <Class IRI="#Life-Cycle_Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Systems_Engineering_Management_Plan_(SEMP)"/>
+        <Class IRI="#Design_Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technical_Performance_Measures_(TPM)"/>
+        <Class IRI="#Metric"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Acceptable_Risk</IRI>
+        <Literal>The risk that is understood and agreed to by the program/project, governing authority, mission directorate, and other customer(s) such that no further specific mitigating action is required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Acquisition</IRI>
+        <Literal>The process for obtaining the systems, research, services, construction, and supplies that NASA needs to fulfill its missions. Acquisition, which may include procurement (contracting for products and services), begins with an idea or proposal that aligns with the NASA Strategic Plan and fulfills an identified need and ends with the completion of the program or project or the final disposition of the product or service.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Acquisition_Plan</IRI>
+        <Literal>The integrated acquisition strategy that enables a program or project to meet its mission objectives and provides the best value to NASA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Analysis_of_Alternatives</IRI>
+        <Literal>A formal analysis method that compares alternative approaches by estimating their ability to satisfy mission requirements through an effectiveness analysis and by estimating their LCCs through cost analysis. The results of these two analyses are used together to produce a cost-effectiveness comparison that allows decision makers to assess the relative value or potential programmatic returns of the alternatives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Configuration_Management</IRI>
+        <Literal>A management discipline applied over a product&apos;s life cycle to provide visibility into and control changes to performance, functionality, and physical characteristics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Contract</IRI>
+        <Literal>A mutually binding legal relationship obligating the seller to furnish the supplies or services (including construction) and the buyer to pay for them. It includes all types of commitments that obligate the Government to an expenditure of appropriated funds and that, except as otherwise authorized, are in writing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Contractor</IRI>
+        <Literal>This term refers to the company or organization responsible for fulfilling the system acquisition contract requirements. An alternative could be solution provider.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Contractor_HSI_Lead</IRI>
+        <Literal>Contractor person responsible for planning, coordinating, and executing the HSI efforts; serves as the contractor&apos;s HSI single point-of-contact.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Contractor_HSI_Team</IRI>
+        <Literal>Refers to the contractor (typically a prime contractor) HSI team responsible for performing HSI activities under a systems acquisition contract. An extended HSI team may also include associate contractor, subcontractor, and supplier HSI personnel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Critical_Event</IRI>
+        <Literal>An event in the operations phase of the mission that is time-sensitive and is required to be accomplished successfully in order to achieve mission success. These events should be considered early in the life cycle as drivers for system design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Decision_Authority</IRI>
+        <Literal>The individual authorized by the Agency to make important decisions on programs and projects under their authority.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Decommissioning</IRI>
+        <Literal>The process of ending an operating mission and the attendant project as a result of a planned end of the mission or project termination. Decommissioning includes final delivery of any remaining project deliverables, disposal of the spacecraft and all its various supporting systems, closeout of contracts and financial obligations, and archiving of project/mission operational and scientific data and artifacts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Derived_Requirements</IRI>
+        <Literal>Requirements arising from constraints, consideration of issues implied but not explicitly stated in the high-level direction provided by NASA Headquarters and Center institutional requirements, factors introduced by the selected architecture, and the design. These requirements are finalized through requirements analysis as part of the overall systems engineering process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Design_Documentation</IRI>
+        <Literal>A document or series of documents that captures and communicates to others the specific technical aspects of a design. It may include images, tabular data, graphs, and other descriptive material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Development_Costs</IRI>
+        <Literal>The total of all costs from the period beginning with the approval to proceed to Implementation at the beginning of Phase C through operational readiness at the end of Phase D.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Disposal</IRI>
+        <Literal>The process of eliminating a project&apos;s assets, including the spacecraft and ground systems. Disposal includes the reorbiting, deorbiting, and/or passivation of a spacecraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Domain-Specific_System_Requirements</IRI>
+        <Literal>System specification/technical requirements impacting the humans (operator, maintainer, supporter, or other type of user) associated with the system, to the extent that human performance, mission effectiveness, and the HSI domain design/implementation considerations may be affected.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Engineering_Requirements</IRI>
+        <Literal>Requirements defined to achieve programmatic requirements and relating to the application of engineering principles, applied science, or industrial techniques.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Environmental_Impact</IRI>
+        <Literal>The direct, indirect, or cumulative beneficial or adverse effect of an action on the environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Formulation</IRI>
+        <Literal>The identification of how the program or project supports the Agency&apos;s strategic goals; the assessment of feasibility, technology, and concepts; risk assessment, team building, development of operations concepts, and acquisition strategies; establishment of high-level requirements and success criteria; the preparation of plans, budgets, and schedules essential to the success of a program or project.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Formulation_Agreement</IRI>
+        <Literal>The Formulation Agreement is prepared by the project to establish the technical and acquisition work that needs to be conducted during Formulation and defines the schedule and funding requirements during Phase A and Phase B for that work.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Government-Industry_Data_Exchange_Program</IRI>
+        <Literal>A cooperative information-sharing program between the U.S. Government, Canadian Government, and industry participants. The goal of GIDEP is to ensure that only reliable and conforming parts, materials, and software are in use on all Government programs and operations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI-Related_Requirement</IRI>
+        <Literal>A requirement not directly associated with an HSI domain, but with human implications, including capability, system or lower-level specification, logistical, or human performance requirements. These requirements may interface with multiple domains and multiple disciplines.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Activities</IRI>
+        <Literal>The management and technical disciplines of planning, leading, coordinating, and optimizing all human integration considerations during system design, development, test, production, use, and disposal of systems, subsystems, equipment, and facilities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Issues</IRI>
+        <Literal>Issues are risks that have a likelihood of 100%, or, in other words, have been realized. HSI issues are issues that affect more than one domain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Lead</IRI>
+        <Literal>The HSI Lead is the person identified to lead the HSI effort. The lead programmatically reports to program management or SE leads as defined by the PM.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Metrics</IRI>
+        <Literal>Quantitative and/or qualitative measures used to estimate the positive impact of HSI and/or HSI domains on design. Alternatively, quantitative or qualitative measures used to impact adverse consequences on the ability of HSI or HSI domains to achieve human integration, human performance, or cost reduction goals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Plan</IRI>
+        <Literal>The HSIP is project-specific plan required by NASA policy for Projects, Single-Project Programs, and Tightly-Coupled Programs. The HSIP documents the strategy for and planned implementation of HSI through a particular project&apos;s life cycle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Program</IRI>
+        <Literal>All the planning, analysis, design support, test and evaluation, coordination, and documentation activities undertaken in response to HSI programmatic requirements contained in the system acquisition contract statement of work.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Programmatic_Requirements</IRI>
+        <Literal>Statement of Work requirements for Human Systems Integration tasks for the contractor HSI team to execute. Focus of these requirements is on HSI program planning, coordination, execution, documentation, and reporting.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Risk</IRI>
+        <Literal>A condition of potentially adverse impact on humans and/or systems. HSI risks can be technical, as well as programmatic. An example of a major HSI risk would be that the assigned personnel, trained in accordance with the training developed, will not be able to safely and effectively operate (or maintain) the system as delivered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Task</IRI>
+        <Literal>Any task performed by the HSI team or HSI domain specialist that contributes materially to achieving HSI goals of improving human integration, improving human performance, or reducing personnel-driven ownership costs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Working_Group</IRI>
+        <Literal>Typically, a chartered organization charged with carrying out all the HSI activities associated with a system acquisition program. The HSI working group is typically co-chaired by government and prime contractor HSI leads.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Habitability_and_Environment</IRI>
+        <Literal>Ensuring system integration with the human through design and continual evaluation of internal/external living and working environments necessary to sustain safety, human/mission performance, and human health.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Human-Centered_Design</IRI>
+        <Literal>An approach to the development of interactive systems that focuses on making systems usable by ensuring that the needs and performance characteristics of the human are met throughout the system&apos;s life cycle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Human_Performance</IRI>
+        <Literal>A measure of human functions and action in a specified environment, reflecting the ability of actual users and maintainers to meet the system&apos;s performance standards, including reliability and maintainability, under the conditions in which the system will be employed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Human_Performance_Requirements</IRI>
+        <Literal>A requirement articulating a need for attaining a specified level of human action within a particular environment, with or without system facilitation, in order to support mission attainment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Implementation</IRI>
+        <Literal>The execution of approved plans for the development and operation of the program/project, and the use of control systems to ensure performance to approved plans and continued alignment with the Agency&apos;s goals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Institutional_Authority</IRI>
+        <Literal>Institutional Authority encompasses all those organizations and authorities not in the Programmatic Authority. This includes Engineering, Safety and Mission Assurance, and Health and Medical organizations; Mission Support organizations; and Center Directors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Integration_Plan</IRI>
+        <Literal>The integration and verification strategies for a project interface with the system design and decomposition into the lower-level elements. The integration plan is structured to bring the elements together to assemble each subsystem and to bring all of the subsystems together to assemble the system/product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Interface_Control_Document</IRI>
+        <Literal>An agreement between two or more parties on how interrelated systems will interface with each other. It documents interfaces between things like electrical connectors, fluid connectors, mechanical, and any other interfaces that might be involved.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Key_Decision_Point</IRI>
+        <Literal>The event at which the Decision Authority determines the readiness of a program/project to progress to the next phase of the life cycle (or to the next KDP).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lesson_Learned</IRI>
+        <Literal>Captured knowledge or understanding gained through experience which, if shared, would benefit the work of others. Unlike a best practice, lessons learned describes a specific event that occurred and provides recommendations for obtaining a repeat of success or for avoiding reoccurrence of an adverse work practice or experience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Life-Cycle_Review</IRI>
+        <Literal>A review of a program or project designed to provide a periodic assessment of the technical and programmatic status and health of a program or project at a key point in the life cycle, e.g., Preliminary Design Review (PDR) or Critical Design Review (CDR).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maintainability</IRI>
+        <Literal>The measure of the ability of an item to be retained in or restored to specified conditions when maintenance is performed by personnel having specified skill levels, using prescribed procedures and resources, at each prescribed level of maintenance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maintainability_and_Supportability</IRI>
+        <Literal>Designing for full life cycle and simplified maintenance and accessibility, reliability, optimized resources, spares, consumables and logistics given mission constraints.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Metric</IRI>
+        <Literal>A measurement taken over a period of time that communicates vital information about the status or performance of a system, process, or activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Mission</IRI>
+        <Literal>A major activity required to accomplish an Agency goal or to effectively pursue a scientific, technological, or engineering opportunity directly related to an Agency goal. Mission needs are independent of any particular system or technological solution.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Mission_Concept_Review</IRI>
+        <Literal>A review that affirms the mission/project need and examines the proposed mission&apos;s objectives and the ability of the concept to fulfill those objectives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Mission_Definition_Review</IRI>
+        <Literal>A life-cycle review that evaluates whether the proposed mission/system architecture is responsive to the program mission/system functional and performance requirements and requirements have been allocated to all functional elements of the mission/system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Operational_Readiness_Review</IRI>
+        <Literal>A review that examines the actual system characteristics and the procedures used in the system or product&apos;s operation and ensures that all system and support (flight and ground) hardware, software, personnel, procedures, and user documentation accurately reflects the deployed state of the system and are operationally ready.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Operations</IRI>
+        <Literal>Full life-cycle engagement of operational considerations into the design, development, maintenance and evolution of systems and organizational capability to enable robust, cost-effective mission operations for human effectiveness and mission success.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Operations_Concept</IRI>
+        <Literal>A description of how the flight system and the ground system are used together to ensure that the concept of operation is reasonable. This might include how mission data of interest, such as engineering or scientific data, are captured, returned to Earth, processed, made available to users, and archived for future reference.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Orbital_Debris</IRI>
+        <Literal>Any object placed in space by humans that remains in orbit and no longer serves any useful function. Objects range from spacecraft to spent launch vehicle stages to components and also include materials, trash, refuse, fragments, and other objects that are overtly or inadvertently cast off or generated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Program</IRI>
+        <Literal>A strategic investment by a Mission Directorate or Mission Support Office that has a defined architecture and/or technical approach, requirements, funding level, and management structure that initiates and directs one or more projects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Program_Requirements</IRI>
+        <Literal>The set of requirements imposed on the program office, which are typically found in the program plan plus derived requirements that the program imposes on itself.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Programmatic_Authority</IRI>
+        <Literal>Includes the Mission Directorates and their respective program and project managers. Individuals in these organizations are the official voices for their respective areas. Programmatic Authority sets, oversees, and ensures conformance to applicable programmatic requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project</IRI>
+        <Literal>A spaceflight project is a specific investment identified in a Program Plan having defined requirements, a LCC, a beginning, and an end. A project also has a management structure and may have interfaces to other projects, agencies, and international partners.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Project_Plan</IRI>
+        <Literal>The document that establishes the project&apos;s baseline for Implementation, signed by the responsible program manager, Center Director, project manager, and the MDAA, if required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Risk</IRI>
+        <Literal>In the context of mission execution, risk is the potential for performance shortfalls, which may be realized in the future, with respect to achieving explicitly established and stated performance requirements. The performance shortfalls may be related to any one or more of the following mission execution domains: (1) safety, (2) technical, (3) cost, and (4) schedule.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Risk-Informed_Decision_Making</IRI>
+        <Literal>A risk-informed decision-making process uses a diverse set of performance measures (some of which are model-based risk metrics) along with other considerations within a deliberative process to inform decision making.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Risk_Assessment</IRI>
+        <Literal>An evaluation of a risk item that determines: (1) what can go wrong, (2) how likely is it to occur, (3) what the consequences are, (4) what uncertainties are associated with the likelihood and consequences, and (5) what the mitigation plans are.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Risk_Management</IRI>
+        <Literal>Risk management includes risk-informed decision making (RIDM) and continuous risk management (CRM) in an integrated framework. RIDM informs systems engineering decisions through better use of risk and uncertainty information in selecting alternatives and establishing baseline requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Safety</IRI>
+        <Literal>Implementation of safety considerations across the full life cycle to reduce hazards and risks to personnel, system, facilities and mission.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Single-Project_Programs</IRI>
+        <Literal>These programs tend to have long development and/or operational lifetimes, represent a large investment of Agency resources, and have contributions from multiple organizations/agencies. These programs frequently combine program and project management approaches, which they document through tailoring.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Stakeholder</IRI>
+        <Literal>An individual or organizational customer having an interest (or stake) in the outcome or deliverable of a program or project.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Standard_Practice</IRI>
+        <Literal>The recommended process to be followed in implementing and executing work for a program (i.e., HSI efforts for a program) against which other practices are measured. For HSI, best practices are determined by a broad-based group of DoD and contractor SMEs, who are experienced in the practice and application of HSI on a variety of acquisition programs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Standards</IRI>
+        <Literal>Formal documents that establish a norm, requirement, or basis for comparison, a reference point to measure or evaluate against. A technical standard, for example, establishes uniform engineering or technical criteria, methods, processes, and practices.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Success_Criteria</IRI>
+        <Literal>That portion of the top-level requirements that defines what is to be achieved to successfully satisfy NASA Strategic Plan objectives addressed by the program or project.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Supportability</IRI>
+        <Literal>Supportability is the capability of a total system design to support operations and readiness needs throughout the life-cycle of a system at an affordable cost. It provides a means of assessing the suitability of a total system design for a set of operational needs within the intended operations and support environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#System</IRI>
+        <Literal>The combination of elements that function together to produce the capability required to meet a need. The elements include all hardware, software, equipment, facilities, personnel, processes, data, and procedures needed for this purpose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Systems_Engineering</IRI>
+        <Literal>A disciplined approach for the definition, implementation, integration, and operation of a system (product or service). The emphasis is on achieving stakeholder functional, physical, and operational performance requirements in the intended use environments over planned life within cost and schedule constraints.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Tailoring</IRI>
+        <Literal>The process used to adjust or seek relief from a prescribed requirement to accommodate the needs of a specific task or activity (e.g., program or project). The tailoring process results in the generation of deviations and waivers depending on the timing of the request.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Technical_Authority</IRI>
+        <Literal>Part of NASA&apos;s system of checks and balances that provides independent oversight of programs and projects in support of safety and mission success through the selection of individuals at delegated levels of authority. These individuals are the Technical Authorities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Technology_Readiness_Level</IRI>
+        <Literal>Provides a scale against which to measure the maturity of a technology. TRLs range from 1, Basic Technology Research, to 9, Systems Test, Launch, and Operations. Typically, a TRL of 6 is required for a technology to be integrated into a flight system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Tightly_Coupled_Programs</IRI>
+        <Literal>Programs with multiple projects that execute portions of a mission(s). No single project is capable of implementing a complete mission. Typically, multiple NASA Centers contribute to the program. Individual projects may be managed at different Centers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Training</IRI>
+        <Literal>Design and implementation of effective training methods and resources to maximize human retention, proficiency, and effectiveness to successfully accomplish mission tasks, properly operate, maintain, and support the system and mission.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#User</IRI>
+        <Literal>Personnel who will operate, maintain, train, and support the equipment, system, or facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Validation</IRI>
+        <Literal>The process of showing proof that the product accomplishes the intended purpose based on stakeholder expectations. May be determined by a combination of test, analysis, demonstration, and inspection. (Answers the question, Am I building the right product?)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Verification</IRI>
+        <Literal>Proof of compliance with requirements. Verification may be determined by a combination of test, analysis, demonstration, and inspection. (Answers the question, Did I build the product right?)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Waiver</IRI>
+        <Literal>A documented authorization releasing a program or project from meeting a requirement after the requirement is put under configuration control at the level the requirement will be implemented.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Approval_(for_implementation)</IRI>
+        <Literal>Acknowledgment by the Decision Authority that the program/project has met stakeholder expectations and Formulation requirements and is ready to proceed to Implementation. By approving a program/project, the Decision Authority commits the budget resources necessary to continue into Implementation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Baseline_(document_context)</IRI>
+        <Literal>Implies the expectation of a finished product, though updates may be needed as circumstances warrant. All approvals required by Center policies and procedures have been obtained.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Baseline_(general_context)</IRI>
+        <Literal>An agreed-to set of requirements, cost, schedule, designs, documents, etc., that will have changes controlled through a formal approval and monitoring process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Concept_of_Operations_(ConOps)</IRI>
+        <Literal>Developed early in Pre-Phase A, the ConOps describes the overall high-level concept of how the system will be used to meet stakeholder expectations, usually in a time-sequenced manner. It describes the system from an operational perspective and helps facilitate an understanding of the system goals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Critical_Design_Review_(CDR)</IRI>
+        <Literal>A review that demonstrates that the maturity of the design is appropriate to support proceeding with full-scale fabrication, assembly, integration, and test, and that the technical effort is on track to complete the system development meeting performance requirements within the identified cost and schedule constraints.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Flight_Readiness_Review_(FRR)</IRI>
+        <Literal>A review that examines tests, demonstrations, analyses, and audits that determine the system&apos;s readiness for a safe and successful flight/launch and for subsequent flight operations. It also ensures that all flight and ground hardware, software, personnel, and procedures are operationally ready.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Funding_(budget_authority)</IRI>
+        <Literal>The authority provided by law to incur financial obligations that will result in expenditures. There are four basic forms of budget authority, but only two are applicable to NASA: appropriations and spending authority from offsetting collections.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#HSI_Practitioner(s)</IRI>
+        <Literal>Personnel trained and/or experienced in HSI or the HSI domains who participate in the execution of the HSI program. May also be called HSI Subject-Matter Experts (SMEs).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Human-in-the-loop_(HITL)</IRI>
+        <Literal>Human-in-the-loop studies are part of an iterative process conducted for the purposes of evaluation or research. HITL studies involve realistic task scenarios, operational or analog participants, and system fidelity that increases over time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Human_Factors_Engineering_(HFE)</IRI>
+        <Literal>Designing and evaluating system interfaces and operations for human well-being and optimized safety, performance and operability, while considering human performance characteristics as they affect and are affected by environments and operating in expected and unpredicted conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Human_Systems_Integration_(HSI)</IRI>
+        <Literal>A required interdisciplinary integration of the human as an element of the system to ensure that the human and software/hardware components cooperate, coordinate and communicate effectively to perform a specific function or mission successfully. HSI embraces the concept of the human as a sub-system on par with the hardware and software sub-systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Key_Performance_Parameter_(KPP)</IRI>
+        <Literal>Those capabilities or characteristics (typically engineering-based or related to health and safety or operational performance) considered most essential for successful mission accomplishment. They characterize the major drivers of operational performance, supportability, and interoperability.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Life-Cycle_Cost_(LCC)</IRI>
+        <Literal>The total of the direct, indirect, recurring, nonrecurring, and other related expenses both incurred and estimated to be incurred in the design, development, verification, production, deployment, prime mission operation, maintenance, support, and disposal of a project, including closeout, but not extended operations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Measures_of_Effectiveness_(MOE)</IRI>
+        <Literal>A measure by which a stakeholder&apos;s expectations are judged in assessing satisfaction with products or systems produced and delivered in accordance with the associated technical effort. The MOE is deemed to be critical to not only the acceptability of the product by the stakeholder but also critical to operational/mission usage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Measures_of_Performance_(MOP)</IRI>
+        <Literal>A quantitative measure that, when met by the design solution, helps ensure that a MOE for a product or system will be satisfied. These MOPs are given special attention during design to ensure that the MOEs to which they are associated are met.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Preliminary_(document_context)</IRI>
+        <Literal>Implies that the product has received initial review in accordance with Center best practices. The content is considered correct, though some TBDs may remain. All approvals required by Center policies and procedures have been obtained. Major changes are expected.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Preliminary_Design_Review_(PDR)</IRI>
+        <Literal>A review that demonstrates that the preliminary design meets all system requirements with acceptable risk and within the cost and schedule constraints and establishes the basis for proceeding with detailed design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Program_(Project)_Team</IRI>
+        <Literal>All participants in program (project) formulation and implementation. This includes all direct reports and others that support meeting program (project) responsibilities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#System_Requirements_Review_(SRR)</IRI>
+        <Literal>For a program, the SRR is used to ensure that its functional and performance requirements are properly formulated and correlated with the Agency and mission directorate strategic objectives. For a system/project, the SRR evaluates whether the functional and performance requirements defined for the system are responsive to the program&apos;s requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Systems_Engineering_Management_Plan_(SEMP)</IRI>
+        <Literal>The SEMP identifies the roles and responsibility interfaces of the technical effort and specifies how those interfaces will be managed. The SEMP is the vehicle that documents and communicates the technical approach, including the application of the common technical processes; resources to be used; and the key technical tasks, activities, and events along with their metrics and success criteria.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Technical_Performance_Measures_(TPM)</IRI>
+        <Literal>A set of performance measures that are monitored by comparing the current actual achievement of the parameters with that anticipated at the current time and on future dates. TPMs are used to confirm progress and identify deficiencies that might jeopardize meeting a system requirement.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
