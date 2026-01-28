@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/untitled-ontology-208"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/untitled-ontology-208">
+    <Prefix name="" IRI="http://www.semanticweb.org/sarahrudder/ontologies/2026/0/untitled-ontology-208/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aspect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#communication_pattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#constraint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enterprise_architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_dynamics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#implementation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#performance_criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#priority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#repository"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#representation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#team_formation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#training"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#view"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#accountedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#accounts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#adjustedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#adjusts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#basedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#basisOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#impactedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#impacts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occuredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occurs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#representedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represents"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#aspect"/>
+        <Class IRI="#element"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#characteristic"/>
+        <Class IRI="#constraint"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#characteristic"/>
+        <Class IRI="#description"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#characteristic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#interaction"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#communication_pattern"/>
+        <Class IRI="#human_network"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#communication_pattern"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#occuredBy"/>
+            <Class IRI="#team_formation"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#component"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#representedBy"/>
+            <Class IRI="#concept"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#concept"/>
+        <Class IRI="#representation"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#concept"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#represents"/>
+            <Class IRI="#component"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#constraint"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#task"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#adjusts"/>
+                <Class IRI="#role"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#description"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#task"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#adjusts"/>
+                <Class IRI="#role"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#implementation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#impacts"/>
+            <Class IRI="#human"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#interaction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#definedBy"/>
+            <Class IRI="#role"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#metrics"/>
+        <Class IRI="#repository"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#repository"/>
+        <Class IRI="#task"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#repository"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#implementation"/>
+            <Class IRI="#priority"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#value"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#requirement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#impacts"/>
+            <Class IRI="#human"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#adjustedBy"/>
+            <Class IRI="#constraint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#role"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#interaction"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#strategy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#impacts"/>
+            <Class IRI="#human"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#adjustedBy"/>
+            <Class IRI="#constraint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#describes"/>
+            <Class IRI="#activity"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#training"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#implementation"/>
+            <Class IRI="#strategy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#accounts"/>
+                <Class IRI="#requirement"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#view"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#aspect"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#view"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#human_dynamics"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#human_dynamics"/>
+        <Class IRI="#aspect"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#activity"/>
+        <Class IRI="#aspect"/>
+        <Class IRI="#capability"/>
+        <Class IRI="#characteristic"/>
+        <Class IRI="#component"/>
+        <Class IRI="#concept"/>
+        <Class IRI="#constraint"/>
+        <Class IRI="#description"/>
+        <Class IRI="#element"/>
+        <Class IRI="#enterprise_architecture"/>
+        <Class IRI="#human"/>
+        <Class IRI="#human_dynamics"/>
+        <Class IRI="#human_network"/>
+        <Class IRI="#implementation"/>
+        <Class IRI="#metrics"/>
+        <Class IRI="#performance_criteria"/>
+        <Class IRI="#priority"/>
+        <Class IRI="#repository"/>
+        <Class IRI="#representation"/>
+        <Class IRI="#requirement"/>
+        <Class IRI="#role"/>
+        <Class IRI="#strategy"/>
+        <Class IRI="#system"/>
+        <Class IRI="#task"/>
+        <Class IRI="#training"/>
+        <Class IRI="#value"/>
+        <Class IRI="#view"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#accountedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#accounts"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#adjustedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#adjusts"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#basedOn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#basisOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#definedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#defines"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#describedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#impactedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#impacts"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#occuredBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#occurs"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#representedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#represents"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
