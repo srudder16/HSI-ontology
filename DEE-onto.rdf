@@ -7,9 +7,12 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem">
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem"/>
-        <rdfs:seeAlso>MIL-HDBK-539</rdfs:seeAlso>
-        <owl:versionInfo>v1.0</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/v1.0"/>
+        <owl:versionInfo>v1.0
+
+---
+
+Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -89,7 +92,6 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975">
-        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">MBx</rdfs:label>
     </owl:Class>
     
@@ -208,7 +210,6 @@
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c">
-        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Design data</rdfs:label>
     </owl:Class>
     
