@@ -1,0 +1,1013 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/"
+     xml:base="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem"/>
+        <rdfs:seeAlso>MIL-HDBK-539</rdfs:seeAlso>
+        <owl:versionInfo>v1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/iso15288#Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/iso15288#Architecture">
+        <rdfs:comment>The structure of components, their relationships, and the principles and guidelines governing their design and evolution over time.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_018cd002_d50c_447a_880f_2ce401478860 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_018cd002_d50c_447a_880f_2ce401478860">
+        <rdfs:comment>An architecture framework establishes a common practice for creating, interpreting, analyzing, and using architecture descriptions within a particular domain of application or stakeholder community. Examples of architecture frameworks include ministry of defence architecture framework (MODAF), The Open Group Architecture Framework, Kruchten&apos;s 4+1 view model, and reference model of open distributed processing.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Architecture framework</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_03057130_1828_4f4d_9530_433724213e94 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_03057130_1828_4f4d_9530_433724213e94">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_77057698_9f1e_43e4_991c_0d54f28c2f2d"/>
+        <rdfs:comment>A trusted and reliable virtual version of something, including virtual computer hardware platforms, storage devices, and computer network resources.</rdfs:comment>
+        <rdfs:label xml:lang="en">Authoritative visualization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0be3a7b6_a4af_4d39_a0ed_4870b6c2cec7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0be3a7b6_a4af_4d39_a0ed_4870b6c2cec7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>The authoritative technical description of an item. This technical description supports the acquisition, production, inspection, engineering, and logistics support of the item. The description defines the required design configuration and performance requirements, as well as procedures required to ensure adequacy of item performance. It consists of applicable technical data such as models, engineering design data, associated lists, specifications, standards, performance requirements, quality assurance provisions, software documentation, and packaging details. This definition is as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Technical data package (TDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_10ee6e90_f0c9_46a5_9080_61b9a8fba3cf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_10ee6e90_f0c9_46a5_9080_61b9a8fba3cf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_95c9e90d_0459_4757_ae35_1e7aaed3b473"/>
+        <rdfs:comment>A structured BOM that identifies components necessary to logistically support a product by identification of spare and repair components.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Provisioning BOM (P-BOM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_11204148_2799_4aa7_9261_a96d7652bcb3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_11204148_2799_4aa7_9261_a96d7652bcb3">
+        <rdfs:comment>A listing of the parts, components, and sub-assemblies; and the quantities of each; needed to define, manufacture, or support an end product. BOMs typically identify by nomenclature and product identifiers.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bill of materials (BOM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975">
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MBx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_14a34942_b026_49d5_95e2_88bec3f8a790 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_14a34942_b026_49d5_95e2_88bec3f8a790">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975"/>
+        <rdfs:comment>A dataset containing the exact solid representation of a product, its associated 3D geometry, and the 3D annotation of its dimensions, tolerances, materials, finishes, and other notes to specify a complete product definition. Additional definitions are as specified in ASME Y14.41.1, ASME Y14.47, or ASME Y14.5.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based definition (MBD)</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.41.1</rdfs:seeAlso>
+        <rdfs:seeAlso>ASME Y14.47</rdfs:seeAlso>
+        <rdfs:seeAlso>ASME Y14.5</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1f138d07_a061_4d11_bb94_c6e6eb9f25f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1f138d07_a061_4d11_bb94_c6e6eb9f25f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>A mockup that represents an actual system.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Physical model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1ff64972_1e9c_43b4_a82f_165ad8de8233 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1ff64972_1e9c_43b4_a82f_165ad8de8233">
+        <rdfs:comment>Owner&apos;s manuals, user&apos;s manuals, installation instructions, operating instructions, and other similar items, regardless of storage medium, that explain the capabilities of the computer software or provide instructions for using the software, as specified in DFARS Clause 252.227-7014. ISO/IEC Standard 12207 uses the term &apos;software lifecycle data&apos; to address software documentation.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Computer software documentation</rdfs:label>
+        <rdfs:seeAlso>DFARS Clause 252.227-7014</rdfs:seeAlso>
+        <rdfs:seeAlso>ISO/IEC Standard 12207</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_28f64a1d_d870_4b31_beb5_083cfd902fa3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_28f64a1d_d870_4b31_beb5_083cfd902fa3">
+        <rdfs:comment>A dimension, tolerance, note, text, or symbol required to complete the product definition or feature of the product that is not visible, but available upon interrogation of the annotated model, as specified in ASME Y14.41 or ASME Y14.5.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_2aed6e43_29f9_4dc2_b9fc_1bbffed7ebc6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_2aed6e43_29f9_4dc2_b9fc_1bbffed7ebc6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>CAD data as created in its original authoring software format. In general, only the original authoring software format is capable of reading, editing, and interpreting native CAD data. Examples of native CAD data authoring software include CREO, CATIA, Autodesk, and SolidWorks. Generally, native CAD data is the only format suitable to serve as master technical data. Native CAD data may also serve as authoritative technical data. This definition is as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Technical data - native CAD data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_2b5a9212_b00e_4a1e_ad5b_8369eb283a8f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_2b5a9212_b00e_4a1e_ad5b_8369eb283a8f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975"/>
+        <rdfs:comment>An approach to MBE that uses modeling to outline the DoD&apos;s goals and success conditions for the system.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based requirements (MBReq)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_2c666bf2_50e2_4e06_9b25_52f9a3a5b12a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_2c666bf2_50e2_4e06_9b25_52f9a3a5b12a">
+        <rdfs:comment>A communication framework that connects a system&apos;s data across functional perspectives.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital thread</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_2cf23524_2ed4_44d0_b5e1_445ed62764c6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_2cf23524_2ed4_44d0_b5e1_445ed62764c6">
+        <rdfs:comment>The act of creating a virtual version of something, including virtual computer hardware platforms, storage devices, and computer network resources.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Virtualization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_35b604a7_6591_4948_8fe0_96fcefd85a62 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_35b604a7_6591_4948_8fe0_96fcefd85a62">
+        <rdfs:comment>A compilation of data, models, and tools for collaboration, analysis, and visualization across all functional domains. IDE includes the methodology and specification for data, models, and tools arrangement with processes and procedures to exploit informational results.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Integrated digital environment (IDE)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_3e3ab38d_7ac3_4c03_8295_60cb98376f4d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_3e3ab38d_7ac3_4c03_8295_60cb98376f4d">
+        <rdfs:comment>MOSA is an integrated business and technical strategy to achieve competitive and affordable acquisition and sustainment over the system life cycle.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Modular open systems approach (MOSA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c">
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Design data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4b36b915_11bd_4453_85fb_0ccb308cef64 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4b36b915_11bd_4453_85fb_0ccb308cef64">
+        <rdfs:comment>Visible dimensions, tolerances, notes, text, or symbols, as specified in ASME Y14.41 or ASME Y14.5.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Annotation</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.41</rdfs:seeAlso>
+        <rdfs:seeAlso>ASME Y14.5</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_51b00dae_cf46_48ea_8c1c_f4553003db0e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_51b00dae_cf46_48ea_8c1c_f4553003db0e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>CAD data that is derived from the native format and converted into a format that can be displayed by widely available software and is for purposes of defining design intent in a human readable format. In general, viewable CAD data cannot serve as master technical data but may serve as either reference or authoritative technical data. This definition is as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Technical data - viewable CAD data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_566e76e5_9b37_4f6d_b181_aa26066f3a39 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_566e76e5_9b37_4f6d_b181_aa26066f3a39">
+        <rdfs:comment>Computer programs, source code, source code listings, object code listings, design details, algorithms, processes, flow charts, formulae, and related material that would enable the software to be reproduced, recreated, or recompiled. Computer software does not include computer databases or computer software documentation, as specified in DFARS Clause 252.227-7014.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Computer software</rdfs:label>
+        <rdfs:seeAlso>DFARS Clause 252.227-7014</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5cb2522f_a0f5_45d4_90c8_f09e27faea4a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5cb2522f_a0f5_45d4_90c8_f09e27faea4a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/iso15288#Architecture"/>
+        <rdfs:comment>The reference architecture provided by the Government to guide and constrain the system design, development, production, and sustainment processes.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Government reference architecture (GRA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_616f9269_b4fd_4b2b_ac7d_da0eb34a0f8d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_616f9269_b4fd_4b2b_ac7d_da0eb34a0f8d">
+        <rdfs:comment>A comprehensive environment capable of digitally modeling and massively iterating all its aspects without the shackles of real-world runtime, risk, or cost.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Technology stack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_620619f6_4970_4bb3_bcd9_d68754d19a5c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_620619f6_4970_4bb3_bcd9_d68754d19a5c">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d9a11756_027c_453e_9227_9bb0bafa3d1b"/>
+        <rdfs:comment>A user&apos;s ability to effectively and securely create, manipulate, deposit or upload, retrieve or download, store, and exchange all data residing within a structured electronic collaborative database or other repository, as specified in MIL-HDBK-61. Data access is not interchangeable with Data Delivery.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Data access</rdfs:label>
+        <rdfs:seeAlso>MIL-HDBK-61</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_62ab4139_1a46_4029_a03f_c1acf03a22b3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_62ab4139_1a46_4029_a03f_c1acf03a22b3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f9335c7b_65aa_4c0b_9220_62df18a63c04"/>
+        <rdfs:comment>The technique, method, or system of operating or controlling a trusted and reliable process by highly automatic means, as by electronic devices, reducing human intervention to a minimum.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Authoritative automation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_6a46dea6_5065_4562_ad24_c148d3d88475 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_6a46dea6_5065_4562_ad24_c148d3d88475">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fc972e80_7d8f_44b4_a075_1de2a6edb3bd"/>
+        <rdfs:comment>A representation of a data design as implemented, or intended to be implemented, in a database management system. In the lifecycle of a project, it typically derives from a logical data model, though it may be reverse engineered from a given database implementation. A complete physical data model will include all the database artifacts required to create relationships between tables or to achieve performance goals, such as indexes, constraint definitions, linking tables, partitioned tables, or clusters.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Physical data model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_6d9fea0b_5eae_49cf_a47a_b7aa22f82d94 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_6d9fea0b_5eae_49cf_a47a_b7aa22f82d94">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>A 3-dimensional (3D) viewable computer-aided design (CAD) representation that details the complete technical description of the required design configuration of an item provided in a widely available software format (e.g., ISO 32000-1 portable document format [PDF]), as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">3-Dimensional intelligent (3Di) technical data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_73e82056_9b9c_436c_b1d8_f1900a4bcb9a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_73e82056_9b9c_436c_b1d8_f1900a4bcb9a">
+        <rdfs:comment>Facts, characteristics, and concepts that define the structure of a system and the interrelationships between its parts and its environment. The data is created in a manner suitable for communication, interpretation, or processing by humans or by automatic means. For complex systems, a framework of conventions, principles, and practices is used for organizing and presenting the architecture data within a specific domain of application or community of stakeholders.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Architecture data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_77057698_9f1e_43e4_991c_0d54f28c2f2d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_77057698_9f1e_43e4_991c_0d54f28c2f2d">
+        <rdfs:comment>Able to be trusted as being accurate or true; reliable.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Authoritative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_7c605f6f_d2e1_45b3_a428_8b9ec6dccb27 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_7c605f6f_d2e1_45b3_a428_8b9ec6dccb27">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975"/>
+        <rdfs:comment>An approach to engineering that uses models as an integral part of the design process that includes the requirements, analysis, design, implementation, and verification of a capability, system, and product throughout the acquisition lifecycle.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based engineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_7f3501cb_76e5_40f2_86fc_efab5e76f8c2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_7f3501cb_76e5_40f2_86fc_efab5e76f8c2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>A set of technical data that has been released and validated as adequate and complete for its intended purpose, as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Validation status - authoritative technical data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_819c92be_3843_4f57_950a_b6735830769c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_819c92be_3843_4f57_950a_b6735830769c">
+        <rdfs:comment>An integrated multi-physics, multiscale, probabilistic model of a system design. The digital prototype may use sensor information and input data to simulate the performance of its corresponding physical twin. The digital prototype may exist prior to realization of its physical counterpart.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital prototype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_81abaf76_0b6a_4605_bc23_2f310e51c39f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_81abaf76_0b6a_4605_bc23_2f310e51c39f">
+        <rdfs:comment>The standard arrangement and organization of information within a 3Di viewable representation of an item. This includes features such as the size and arrangement of information blocks (e.g., title blocks), notes, lists, revision information, view states, restriction notices, and the use of optional or supplemental blocks, as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">3Di format</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_834994ac_bd8b_4c2d_90c2_8220f8daf411 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_834994ac_bd8b_4c2d_90c2_8220f8daf411">
+        <rdfs:comment>A 3D data format used for product visualization, collaboration, CAD data exchange, and long-term data retention. It contains a combination of 3D geometry, product and manufacturing information, and metadata that is a compression of a native CAD file.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Jupiter tessellation (JT) file</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_859ff186_447a_4e88_9305_dc3ef7355169 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_859ff186_447a_4e88_9305_dc3ef7355169">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c"/>
+        <rdfs:comment>Engineering design data prepared by a commercial design activity, in accordance with that activity&apos;s documentation standards and practices, to support the development and manufacture of a commercially developed product, as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Commercial engineering design data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8674adc6_3984_41c3_bf4b_6ca234f92716 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8674adc6_3984_41c3_bf4b_6ca234f92716">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/iso15288#Architecture"/>
+        <rdfs:comment>Authoritative sources of data about a specific subject area that guides and constrains the instantiations of multiple architectures and solutions.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Reference architecture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8af39102_4ef6_4c1a_8773_412adc88a281 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8af39102_4ef6_4c1a_8773_412adc88a281">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c"/>
+        <rdfs:comment>Engineering design data that describes the complete physical and performance characteristics of an item or component in sufficient detail to ensure that an item or component produced in accordance with this data will be essentially identical to the original item or component.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Product design data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8dcdbbb4_be4a_4b39_8ac3_9c07ed588e13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8dcdbbb4_be4a_4b39_8ac3_9c07ed588e13">
+        <rdfs:comment>The act of creating a virtual version of something, including virtual computer hardware platforms, storage devices, and computer network resources.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Threat modeling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8f5f011b_4b0d_4cc5_aaf8_2afe4df2f82b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8f5f011b_4b0d_4cc5_aaf8_2afe4df2f82b">
+        <rdfs:comment>A managed repository of valid or trusted data that is recognized by an appropriate set of governance entities and supports the governance entity&apos;s business environment because its authority or authenticity is widely recognized by experts in the field.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Authoritative source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a">
+        <rdfs:comment>A version of a concept, relationship, and structure of a system.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_9124cfcb_064d_4d31_a8fb_c84cde815256 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_9124cfcb_064d_4d31_a8fb_c84cde815256">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>An index of all documents contained in a TDP established at a point in time. TDPLs contain a list of all specifications, engineering design data (e.g., drawings, models, 3Di viewables, etc.), quality assurance provisions, inspection documents, packaging documents or other documents which comprise the TDP listed by nomenclature, document commercial and Government entity (CAGE) code, document number, distribution code, revision, and date. This definition is as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Technical data package list (TDPL)</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_94babc1f_6348_4961_a78e_a6d3f17ee190 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_94babc1f_6348_4961_a78e_a6d3f17ee190">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975"/>
+        <rdfs:comment>The use of an MBD and other analytical models to design, maintain, and execute the manufacturing process of an item.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based manufacturing (MBM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_95c9e90d_0459_4757_ae35_1e7aaed3b473 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_95c9e90d_0459_4757_ae35_1e7aaed3b473">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_11204148_2799_4aa7_9261_a96d7652bcb3"/>
+        <rdfs:comment>A listing of components, typically identified by nomenclature and product identifier(s), that make up a product, arranged in a hierarchy such that product structure and component quantities can be determined for the end item itself and for all assemblies and subassemblies contained in the end item. The structured BOM may consist of three subtypes: Engineering BOM (E-BOM), Manufacturing BOM (M-BOM), and Provisioning BOM (P-BOM).</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BOM, structured</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_9c39786c_d4ce_4811_99cb_56c6626056a8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_9c39786c_d4ce_4811_99cb_56c6626056a8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c"/>
+        <rdfs:comment>Engineering drawings; 3Di viewable, native CAD models; neutral CAD models; or a combination of these, that define an item by means of graphic and textual presentations, the physical and functional requirements of an item, sufficient to fulfill its technical data package (TDP) element and level requirements, as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Engineering design data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a6df1f46_8c96_496e_91aa_cfbf531706a8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a6df1f46_8c96_496e_91aa_cfbf531706a8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c"/>
+        <rdfs:comment>Engineering design data that describes the engineering concepts on which a proposed technology or design approach is based.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Conceptual design data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a7b09c6d_c00d_4cb2_87cc_d1b60bdfbc04 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a7b09c6d_c00d_4cb2_87cc_d1b60bdfbc04">
+        <rdfs:comment>A virtual replica of a physical entity that is synchronized across time. Digital twins exist to replicate configuration, performance, or history of a system.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital twin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a7cd6e66_eb4b_43ac_854d_f242389c0183 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a7cd6e66_eb4b_43ac_854d_f242389c0183">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fc972e80_7d8f_44b4_a075_1de2a6edb3bd"/>
+        <rdfs:comment>A data model of a specific problem domain expressed independently of a particular database management product or storage technology (physical data model) but in terms of data structures such as relational tables and columns, object-oriented classes, or extensible markup language (XML) tags. This is as opposed to a conceptual data model, which describes the semantics of an organization without reference to technology.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Logical data model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_aa1940a4_174d_4ceb_84f3_f0c077d2e7d5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_aa1940a4_174d_4ceb_84f3_f0c077d2e7d5">
+        <rdfs:comment>A virtual replica of the physical configuration of an existing entity. The digital instance typically exists to replicate each individual configuration of a product as-built or as-maintained.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital instance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_aa99397e_4316_4a3d_8ec9_d7ef7455e5a4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_aa99397e_4316_4a3d_8ec9_d7ef7455e5a4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975"/>
+        <rdfs:comment>An approach to MBE that uses graphical notations and models to design necessary software systems.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based software development (MBSD)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ad715048_1483_4fed_8f47_3a22e00a3ba8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ad715048_1483_4fed_8f47_3a22e00a3ba8">
+        <rdfs:comment>A list of authorized data requirements for a specific procurement that forms part of a contract. It is comprised of a single DD Form 1423, or a series of DD Form 1423s, containing data requirements and delivery information. The CDRL is the standard delivery format for identifying potential data requirements in a solicitation and deliverable data requirements in a contract and identifies what data products are to be formally delivered to the Government by a contractor, as well as when and possibly how (e.g., format and quantity) they are to be delivered.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Contract data requirements list (CDRL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b018d760_0fd6_4799_9388_f3e55e7b39ed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b018d760_0fd6_4799_9388_f3e55e7b39ed">
+        <rdfs:comment>The ability to exchange information and operate effectively together.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Interoperability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b01d7134_16b7_48fd_9651_7ce48d9e9be9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b01d7134_16b7_48fd_9651_7ce48d9e9be9">
+        <rdfs:comment>A company document that establishes engineering and technical limitations and applications for items, materials, processes, methods, designs, and engineering practices unique to that company.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Company standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b4387575_54ac_474a_9cfd_e572d8aa418e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b4387575_54ac_474a_9cfd_e572d8aa418e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_7c605f6f_d2e1_45b3_a428_8b9ec6dccb27"/>
+        <rdfs:comment>The formalized application of modeling to support system requirements, design, analysis, verification, and validation activities beginning in the conceptual design phase and continuing throughout development and later lifecycle phases.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based systems engineering (MBSE)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b6862c89_d0c0_49c6_b708_233886f18278 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b6862c89_d0c0_49c6_b708_233886f18278">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975"/>
+        <rdfs:comment>The use of an MBD and other analytical models to design, maintain, and execute the sustainment and support strategy of an end item.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based sustainment (MBS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b72fef74_fc25_426e_9799_953b62a84fd1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b72fef74_fc25_426e_9799_953b62a84fd1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975"/>
+        <rdfs:comment>An organization that uses MBD, as well as other digital models and associated datasets, in an integrated and collaborative environment, shared across the enterprise, as the foundation of the product lifecycle.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based enterprise (MBE)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b91008ff_c889_4174_9339_1b430d576fda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b91008ff_c889_4174_9339_1b430d576fda">
+        <rdfs:comment>The interconnected infrastructure, environment, and methodology (processes, methods, and tools) used to store, access, analyze, and visualize evolving systems&apos; data and models to address the needs of stakeholders.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital engineering ecosystem (DEE)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_baf30a63_b7cc_469f_98e7_223a22bd5236 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_baf30a63_b7cc_469f_98e7_223a22bd5236">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>A set of technical data generated on master technical data. Typically, derivative technical data is created to change its format to suit a different purpose; for example, converting master, native format data to neutral or viewable data (e.g., STEP, IGES, PDF) in order for it to be read by a wider range of software applications. Changes to derivative technical data originate on the master technical dataset. This definition is as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Technical data origin - derivative technical data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bc8451f3_c51f_4be4_99ae_a6c8df8fcb6b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bc8451f3_c51f_4be4_99ae_a6c8df8fcb6b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_95c9e90d_0459_4757_ae35_1e7aaed3b473"/>
+        <rdfs:comment>A structured BOM that defines a product.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Engineering BOM (E-BOM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bd68fd3f_fa9d_4257_8430_7db88f8b9263 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bd68fd3f_fa9d_4257_8430_7db88f8b9263">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>A method of mathematical modeling that runs an initial condition with varying parameters and approximates a solution.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Numerical model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bfd3af6c_45c9_41ec_b194_aa2902916abb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bfd3af6c_45c9_41ec_b194_aa2902916abb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>A method of mathematical modeling that frames a process with many parameters and calculates an exact solution without computer simulation.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Analytical model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_c4617975_3e5e_43d0_a828_e27c43c732ef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_c4617975_3e5e_43d0_a828_e27c43c732ef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975"/>
+        <rdfs:comment>A digital transformation program that modernizes the Navy&apos;s current maritime logistics data systems and that provides configuration management, provisioning, readiness modeling, and technical data management support for ships/subs and weapon systems. It consolidates the current disparate logistics information technology (IT) systems, institutionalizes naval enterprise collaboration, and provides modeling and simulation capabilities.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based product support (MBPS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55">
+        <rdfs:comment>Recorded information, regardless of the form or method of the recording, of a scientific or technical nature (including computer software documentation). The term does not include computer software or data incidental to contract administration, such as financial or management information, as specified in DFARS Clause 252.227-7013.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Technical data</rdfs:label>
+        <rdfs:seeAlso>DFARS Clause 252.227-7013</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_cbaefafc_5228_41e6_b630_56ffe15481ce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_cbaefafc_5228_41e6_b630_56ffe15481ce">
+        <rdfs:comment>A strategic business approach that applies a consistent set of business solutions in support of the collaborative creation, management, dissemination, and use of product definition information (product data) across the extended enterprise, and spanning from product concept to end of life, integrating people, processes, business systems, and information.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Product lifecycle management (PLM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_cd80decb_b06c_4c36_a9c3_18483048243a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_cd80decb_b06c_4c36_a9c3_18483048243a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>A set of technical data that is provided for information, but is not necessarily validated as accurate, adequate, and complete, as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Validation status - reference technical data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d1076ffb_eeb4_4809_898a_d81d3d287693 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d1076ffb_eeb4_4809_898a_d81d3d287693">
+        <rdfs:comment>A service that provides a consumer of data with a common access point to authoritative data obtained from one or more sources that are considered the originating authoritative source.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Attribute service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d1c20ae5_a0a9_4854_b98c_2f3f563a10a1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d1c20ae5_a0a9_4854_b98c_2f3f563a10a1">
+        <rdfs:comment>Products (e.g., documents, diagrams, presentations or briefings, charts, spreadsheets, processes, or workflows) within, or generated from, the digital engineering ecosystem (DEE) that provide ways or means to visualize, communicate, or deliver data, information, and knowledge to stakeholders.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital artifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d5ea5882_123c_4a88_9443_4a151da2ccf0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d5ea5882_123c_4a88_9443_4a151da2ccf0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>Provides the architecture views used to support business case development and investment decisions, monitor capability development, and service improvements. The GRM can be provided to potential bidders for contracted efforts to further acquisition, development, and sustainment.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Government reference model (GRM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d843ea46_97b9_4b05_90b0_7888c6fbfc92 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d843ea46_97b9_4b05_90b0_7888c6fbfc92">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>A model that emulates a real-life system through computer software.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Simulation model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d9a11756_027c_453e_9227_9bb0bafa3d1b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_d9a11756_027c_453e_9227_9bb0bafa3d1b">
+        <rdfs:comment>The physical delivery or transmission of information and files from one source or ownership to another.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Data delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_dfb696b2_d232_49a1_8e80_da15a1854dcc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_dfb696b2_d232_49a1_8e80_da15a1854dcc">
+        <rdfs:comment>Generally defined to be data about data. For the purpose of this handbook, metadata is defined to be data about design data and its defining engineering design data documents. Metadata is used by the procuring activity to store, manage, and provide access to TDP elements.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Metadata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e0862082_21d4_4a51_986d_825efa6d9381 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e0862082_21d4_4a51_986d_825efa6d9381">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>CAD data that is derived from the native format and converted into a format that can be imported into other CAD software. Neutral CAD data is created to a widely available national or international standard (e.g., STEP, IGES, etc.). In general, neutral CAD data cannot serve as master technical data but may serve as either reference or authoritative technical data. This definition is as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Technical data - neutral CAD data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e1b6a35c_0e42_4310_82da_720327e65fe3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e1b6a35c_0e42_4310_82da_720327e65fe3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8f5f011b_4b0d_4cc5_aaf8_2afe4df2f82b"/>
+        <rdfs:comment>An entity, such as a person, governing body, or system, that applies expert judgement and rules to proclaim an artifact is valid and originates from a legitimate source.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Authoritative source of truth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e363679b_05aa_4fa0_abb1_d029ade085d5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e363679b_05aa_4fa0_abb1_d029ade085d5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>A digital representation of a defense system, generated by all stakeholders, that integrates the authoritative technical data and associated artifacts which define all aspects of the system for the specific activities throughout the system lifecycle.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital system model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e6fb91bc_196d_4823_82d2_444739884cf0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e6fb91bc_196d_4823_82d2_444739884cf0">
+        <rdfs:comment>The business function, often within product lifecycle management (PLM), that is responsible for the management and publication of product data.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Product data management (PDM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_eb1e4f38_e236_475e_bdec_b2e4c8ac37cf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_eb1e4f38_e236_475e_bdec_b2e4c8ac37cf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c"/>
+        <rdfs:comment>Engineering design data that describes the physical and performance characteristics of a specific design approach to the extent necessary to permit the analytical evaluation of its ability to meet specified requirements and enable the development, manufacture, and testing of prototype or experimental materiel.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Developmental design data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_eb8cb258_0a38_4da4_bba2_2f4c979d09dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_eb8cb258_0a38_4da4_bba2_2f4c979d09dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1262e734_f3a0_43a2_9058_52f737709975"/>
+        <rdfs:comment>An approach to MBE that uses models to generate test cases and support the verification and validation of systems.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model-based testing (MBT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f2dd071d_6e3a_410a_993f_6b4f944eba66 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f2dd071d_6e3a_410a_993f_6b4f944eba66">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_95c9e90d_0459_4757_ae35_1e7aaed3b473"/>
+        <rdfs:comment>A structured BOM that identifies components and materials necessary to manufacture a product.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Manufacturing BOM (M-BOM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f41f98cb_467a_4904_b4fa_55f5128118dc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f41f98cb_467a_4904_b4fa_55f5128118dc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>A symbolic model whose properties are expressed in mathematical symbols and relationships.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mathematical model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f67796fd_6a25_4237_961d_ff63038c6e31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f67796fd_6a25_4237_961d_ff63038c6e31">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>A 3D CAD dataset in which all necessary features to fully define the item (full design disclosure including dimensions, tolerances, materials, notes, surface finishes, etc.) are included in a readily viewable form, as specified in MIL-STD-31000, ASME Y14.41, ASME Y14.41.1, or ASME Y14.5.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Fully annotated model</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.41</rdfs:seeAlso>
+        <rdfs:seeAlso>ASME Y14.5</rdfs:seeAlso>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f83e0888_5478_42f2_8aea_80d2b9a4f44f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f83e0888_5478_42f2_8aea_80d2b9a4f44f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>A digital representation describing the form of a physical object, displayed via specialized software.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">3D model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f9335c7b_65aa_4c0b_9220_62df18a63c04 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f9335c7b_65aa_4c0b_9220_62df18a63c04">
+        <rdfs:comment>The technique, method, or system of operating or controlling a process by highly automatic means, as by electronic devices, reducing human intervention to a minimum.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Automation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f9f6b6c7_241c_43c8_9a16_7d63dfdbd43f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f9f6b6c7_241c_43c8_9a16_7d63dfdbd43f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>A 3D CAD dataset that is sufficiently defined to provide a visual understanding of the item, but does not contain full design disclosure. Generally, interface characteristics and features such as weight and center of gravity will be sufficiently defined for the intended purpose. Sometimes referred to as an envelope model, shrink-wrap model, or cosmetic model, as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Limited design disclosure model</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fa26df35_5294_449f_af2a_edb8cb232036 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fa26df35_5294_449f_af2a_edb8cb232036">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ca446984_c4d0_4d4d_a4ce_5fe72b0a6e55"/>
+        <rdfs:comment>A set of technical data that is the controlling source for any subsequent technical data output. All changes to the technical data originates on the master technical dataset. There can be only one instance of the master technical data, which is typically in the native CAD format and maintained by the current design activity. This definition is as specified in MIL-STD-31000.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Technical data origin - master technical data</rdfs:label>
+        <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fc19b288_bde3_4a0c_8a4f_4e51fb86544c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fc19b288_bde3_4a0c_8a4f_4e51fb86544c">
+        <rdfs:comment>As a noun, the discipline that comprises the development and use of models and simulations. As a verb, the use of models and simulations, either statically or over time, to develop data as a basis for making managerial or technical decisions.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Modeling and simulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fc972e80_7d8f_44b4_a075_1de2a6edb3bd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fc972e80_7d8f_44b4_a075_1de2a6edb3bd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>The definition of all data elements (and their relationships) to be maintained within a product data management (PDM) system. The data model defines the database schema for the PDM system.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Data model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fd6fa4c1_2a14_49bd_89f7_c8b4d8f5ea7c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fd6fa4c1_2a14_49bd_89f7_c8b4d8f5ea7c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fc972e80_7d8f_44b4_a075_1de2a6edb3bd"/>
+        <rdfs:comment>A map of concepts and their relationships. This describes the semantics of an organization and represents a series of assertions about its nature. Specifically, it describes the things of significance to an organization (entity classes), about which it is inclined to collect information, and its characteristics (attributes) and the associations between pairs of those things of significance (relationships).</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Conceptual data model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ffd1e876_5a88_45f8_8c2e_bedcce72cc4d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ffd1e876_5a88_45f8_8c2e_bedcce72cc4d">
+        <rdfs:comment>A set of software development practices that combines software development (Dev), security (Sec), and information technology operations (Ops) to secure the outcome and shorten the development lifecycle. DevSecOps supports a Government reference architecture (GRA), or Government-owned reference architecture definition.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">DevSecOps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fff2e3df_c7f6_4c5b_a21b_ee11dd591206 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fff2e3df_c7f6_4c5b_a21b_ee11dd591206">
+        <rdfs:comment>An integrated, computation-based approach that uses authoritative sources of system data and models as a continuum across disciplines to support lifecycle activities.</rdfs:comment>
+        <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital engineering (DE)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0be3a7b6_a4af_4d39_a0ed_4870b6c2cec7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_2aed6e43_29f9_4dc2_b9fc_1bbffed7ebc6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_51b00dae_cf46_48ea_8c1c_f4553003db0e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_9124cfcb_064d_4d31_a8fb_c84cde815256"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_baf30a63_b7cc_469f_98e7_223a22bd5236"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e0862082_21d4_4a51_986d_825efa6d9381"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_fa26df35_5294_449f_af2a_edb8cb232036"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_10ee6e90_f0c9_46a5_9080_61b9a8fba3cf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_95c9e90d_0459_4757_ae35_1e7aaed3b473"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bc8451f3_c51f_4be4_99ae_a6c8df8fcb6b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f2dd071d_6e3a_410a_993f_6b4f944eba66"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
