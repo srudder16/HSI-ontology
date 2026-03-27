@@ -7,12 +7,17 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem">
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/v1.0"/>
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/v1.1"/>
         <owl:versionInfo>v1.0
 
 ---
 
 Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionInfo>
+        <owl:versionInfo>v1.1
+
+---
+
+Add ASME Y14.41 terms and definitions</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -57,6 +62,17 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_085e114e_bea2_4928_87a4_a629fe5d760c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_085e114e_bea2_4928_87a4_a629fe5d760c">
+        <rdfs:comment>data duplicated or extracted from the original. A copy of a derivative is also a derivative (ASME Y14.100).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Derivative</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.100</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0be3a7b6_a4af_4d39_a0ed_4870b6c2cec7 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0be3a7b6_a4af_4d39_a0ed_4870b6c2cec7">
@@ -64,6 +80,38 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>The authoritative technical description of an item. This technical description supports the acquisition, production, inspection, engineering, and logistics support of the item. The description defines the required design configuration and performance requirements, as well as procedures required to ensure adequacy of item performance. It consists of applicable technical data such as models, engineering design data, associated lists, specifications, standards, performance requirements, quality assurance provisions, software documentation, and packaging details. This definition is as specified in MIL-STD-31000.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Technical data package (TDP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0cae7427_d1d2_4364_8b9b_70136a0ae542 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0cae7427_d1d2_4364_8b9b_70136a0ae542">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8fc314ef_c07a_4f4a_9759_f65419697e6a"/>
+        <rdfs:comment>a combination of model, annotation, and attributes that describe a product.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Annotated Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0d27fda7_7895_4c72_acc9_1b68f3dd0bb8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0d27fda7_7895_4c72_acc9_1b68f3dd0bb8">
+        <rdfs:comment>a supplemental geometry line or curve segment indicating the orientation of a direction dependent tolerance.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Represented Line Element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_10b601b7_1d91_4846_8fcf_af94fef1d896 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_10b601b7_1d91_4846_8fcf_af94fef1d896">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5674bdb8_871a_48c4_9ce3_b57e34048140"/>
+        <rdfs:comment>a model value that is rounded off to the number of decimal places required for the design.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Resolved Dimension</rdfs:label>
     </owl:Class>
     
 
@@ -97,6 +145,27 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_133c8124_a2c0_47cc_9fa3_7e9a914ed372 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_133c8124_a2c0_47cc_9fa3_7e9a914ed372">
+        <rdfs:comment>a label or name used to specify a unique digital element.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital Element Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_14296c8e_863a_4799_9d44_fad36d9e2b92 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_14296c8e_863a_4799_9d44_fad36d9e2b92">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a8834393_9639_4e5d_86c2_f3708271f148"/>
+        <rdfs:comment>the data required for the release, control, and storage of product definition data as well as other relevant engineering data.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Management Data</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_14a34942_b026_49d5_95e2_88bec3f8a790 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_14a34942_b026_49d5_95e2_88bec3f8a790">
@@ -107,6 +176,26 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:seeAlso>ASME Y14.41.1</rdfs:seeAlso>
         <rdfs:seeAlso>ASME Y14.47</rdfs:seeAlso>
         <rdfs:seeAlso>ASME Y14.5</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_14c78252_6410_4259_9304_712d974e6178 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_14c78252_6410_4259_9304_712d974e6178">
+        <rdfs:comment>the portion of the product definition data to which annotation or attribute(s) pertain.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Associated Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1edd203f_bba3_4fca_8120_35469b99c533 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_1edd203f_bba3_4fca_8120_35469b99c533">
+        <rdfs:comment>a tolerance that invokes a zone of parallel lines or curves.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Direction-Dependent Tolerance</rdfs:label>
     </owl:Class>
     
 
@@ -140,6 +229,8 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>A dimension, tolerance, note, text, or symbol required to complete the product definition or feature of the product that is not visible, but available upon interrogation of the annotated model, as specified in ASME Y14.41 or ASME Y14.5.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Attribute</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.41</rdfs:seeAlso>
+        <rdfs:seeAlso>ASME Y14.5</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -197,6 +288,27 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_365b8c45_4ddd_49f1_8b32_ee446bc93497 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_365b8c45_4ddd_49f1_8b32_ee446bc93497">
+        <rdfs:comment>a unit of data for which the definition, identification, representation, and permissible values are specified (ASME Y14.100).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Product Definition Elements</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.100</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_3c3fe074_0601_431f_9257_ca62ea6ca850 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_3c3fe074_0601_431f_9257_ca62ea6ca850">
+        <rdfs:comment>indicates the number of significant digits of the product definition required in the production of the part to fulfill the design intent.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Precision</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_3e3ab38d_7ac3_4c03_8295_60cb98376f4d -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_3e3ab38d_7ac3_4c03_8295_60cb98376f4d">
@@ -210,6 +322,7 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_4a21b720_346e_4d7b_b0d8_9225c8d41d2c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a8834393_9639_4e5d_86c2_f3708271f148"/>
         <rdfs:label xml:lang="en">Design data</rdfs:label>
     </owl:Class>
     
@@ -239,6 +352,17 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5382f921_7f73_4c0a_87e7_35473d63a667 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5382f921_7f73_4c0a_87e7_35473d63a667">
+        <rdfs:comment>an organization that has, or has had, responsibility for the design of an item (ASME Y14.100).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Design Activity</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.100</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_566e76e5_9b37_4f6d_b181_aa26066f3a39 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_566e76e5_9b37_4f6d_b181_aa26066f3a39">
@@ -250,6 +374,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5674bdb8_871a_48c4_9ce3_b57e34048140 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5674bdb8_871a_48c4_9ce3_b57e34048140">
+        <rdfs:comment>the numerical value derived by interrogating the model that quantifies the form and spatial relationships of the geometry composing a model, or assembly of models, to the precision of the computer system.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model Value</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5cb2522f_a0f5_45d4_90c8_f09e27faea4a -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5cb2522f_a0f5_45d4_90c8_f09e27faea4a">
@@ -257,6 +391,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>The reference architecture provided by the Government to guide and constrain the system design, development, production, and sustainment processes.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Government reference architecture (GRA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5e2db920_3bba_4203_9e02_9c0a7f874d34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_5e2db920_3bba_4203_9e02_9c0a7f874d34">
+        <rdfs:comment>a means of interrogating a digital element or the relationship between digital elements.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Query</rdfs:label>
     </owl:Class>
     
 
@@ -294,6 +438,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_63a2d64d_8797_4c86_8c66_fb90b11e755d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_63a2d64d_8797_4c86_8c66_fb90b11e755d">
+        <rdfs:comment>geometric elements included in product definition data to communicate design requirements but not intended to represent an item.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Supplemental Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_6a46dea6_5065_4562_ad24_c148d3d88475 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_6a46dea6_5065_4562_ad24_c148d3d88475">
@@ -320,6 +474,7 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_73e82056_9b9c_436c_b1d8_f1900a4bcb9a -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_73e82056_9b9c_436c_b1d8_f1900a4bcb9a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a8834393_9639_4e5d_86c2_f3708271f148"/>
         <rdfs:comment>Facts, characteristics, and concepts that define the structure of a system and the interrelationships between its parts and its environment. The data is created in a manner suitable for communication, interpretation, or processing by humans or by automatic means. For complex systems, a framework of conventions, principles, and practices is used for organizing and presenting the architecture data within a specific domain of application or community of stakeholders.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Architecture data</rdfs:label>
@@ -391,6 +546,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_859a9959_497a_4242_9b9e_d8f8fd4ddb65 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_859a9959_497a_4242_9b9e_d8f8fd4ddb65">
+        <rdfs:comment>geometric elements used to represent the definition of an item.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_859ff186_447a_4e88_9305_dc3ef7355169 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_859ff186_447a_4e88_9305_dc3ef7355169">
@@ -399,6 +564,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Commercial engineering design data</rdfs:label>
         <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_862f3b5e_ef34_4e2f_bd5c_e6da686323b8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_862f3b5e_ef34_4e2f_bd5c_e6da686323b8">
+        <rdfs:comment>a representation of a system to determine the position of geometric elements in space, e.g., Cartesian coordinate system.</rdfs:comment>
+        <rdfs:label xml:lang="en">Coordinate System</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.41</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -414,6 +589,15 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_89860cb1_dd9a_45cb_a278_bc54a9146370 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_89860cb1_dd9a_45cb_a278_bc54a9146370">
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Associativity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8af39102_4ef6_4c1a_8773_412adc88a281 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8af39102_4ef6_4c1a_8773_412adc88a281">
@@ -421,6 +605,17 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>Engineering design data that describes the complete physical and performance characteristics of an item or component in sufficient detail to ensure that an item or component produced in accordance with this data will be essentially identical to the original item or component.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Product design data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8b1027da_facc_4412_aa2c_078b9a599b4d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_8b1027da_facc_4412_aa2c_078b9a599b4d">
+        <rdfs:comment>entries such as dash (-), slash (/), and asterisk (*) that are not included in the set of capital letters A-Z, lowercase letters a-z, numerals 0-9, and punctuation symbols (ASME Y14.100).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Special Character</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.100</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -467,6 +662,17 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_924941c3_8942_468c_816d_14d33726fb38 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_924941c3_8942_468c_816d_14d33726fb38">
+        <rdfs:comment>a physical portion of a part (such as a surface, pin outside diameter, hole, or slot) or its representation on drawings, models, or digital data files (ASME Y14.5).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Feature</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.100</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_94babc1f_6348_4961_a78e_a6d3f17ee190 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_94babc1f_6348_4961_a78e_a6d3f17ee190">
@@ -474,6 +680,17 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>The use of an MBD and other analytical models to design, maintain, and execute the manufacturing process of an item.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Model-based manufacturing (MBM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_94dd1e79_d7e1_4030_bf17_c6081c3eeaec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_94dd1e79_d7e1_4030_bf17_c6081c3eeaec">
+        <rdfs:comment>the application of a unique identifier that distinguishes an activity or organization from another activity or organization. Examples of activity identification include activity name, activity name and address, or CAGE Code (ASME Y14.100).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Design Activity Identification (DAI)</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.100</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -489,6 +706,17 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_9924fbbc_6cba_45e0_a1b1_3bae27ae5fa0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_9924fbbc_6cba_45e0_a1b1_3bae27ae5fa0">
+        <rdfs:comment>the current design activity&apos;s reproducible drawing or data set on which the revision record is kept and recognized as official (ASME Y14.100).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Original</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.100</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_9c39786c_d4ce_4811_99cb_56c6626056a8 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_9c39786c_d4ce_4811_99cb_56c6626056a8">
@@ -497,6 +725,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Engineering design data</rdfs:label>
         <rdfs:seeAlso>MIL-STD-31000</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a42c7fc8_7d36_4957_9d91_b1f216ceb280 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a42c7fc8_7d36_4957_9d91_b1f216ceb280">
+        <rdfs:comment>a printed or plotted copy of a displayed image on a medium such as paper or polyester film.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Hard Copy</rdfs:label>
     </owl:Class>
     
 
@@ -533,6 +771,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a8834393_9639_4e5d_86c2_f3708271f148 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a8834393_9639_4e5d_86c2_f3708271f148">
+        <rdfs:comment>information represented in a formal manner suitable for communication, interpretation, or processing by human beings or computers.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Data</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_aa1940a4_174d_4ceb_84f3_f0c077d2e7d5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_aa1940a4_174d_4ceb_84f3_f0c077d2e7d5">
@@ -550,6 +798,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>An approach to MBE that uses graphical notations and models to design necessary software systems.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Model-based software development (MBSD)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_abe0d40b_f541_4fad_a1f8_2f816391f136 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_abe0d40b_f541_4fad_a1f8_2f816391f136">
+        <rdfs:comment>a discrete entity (e.g., point, line, curve, plane, surface, solid, volume, vector, coordinate system) used in a digital data set to represent or present physical features of the product definition.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Geometric Element</rdfs:label>
     </owl:Class>
     
 
@@ -580,6 +838,27 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>A company document that establishes engineering and technical limitations and applications for items, materials, processes, methods, designs, and engineering practices unique to that company.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Company standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b033d918_c604_4261_8ee4_382f5385ddb4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b033d918_c604_4261_8ee4_382f5385ddb4">
+        <rdfs:comment>the two-dimensional (2D) geometric elements and annotations that define an item and the product definition elements of the sheet format in accordance with ASME Y14.1 or ASME Y14.1M (ASME Y14.100).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Drawing Graphic Sheet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b1b57f6b_a763_4b8d_8d1a_29b8bb1a111a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_b1b57f6b_a763_4b8d_8d1a_29b8bb1a111a">
+        <rdfs:comment>a stored and retrievable specific orientation and a magnification factor of an annotated model (ASME Y14.3).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Saved View</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.3</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -650,6 +929,18 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bcb6ec50_f091_4371_9085_824bfa272639 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bcb6ec50_f091_4371_9085_824bfa272639">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_a8834393_9639_4e5d_86c2_f3708271f148"/>
+        <rdfs:comment>denotes the totality of product definition elements required to completely define a product. Product definition data includes geometry, topology, relationships, tolerances, attributes, and features necessary to completely define a component part or an assembly of parts for the purpose of design, analysis, manufacture, test, and inspection (ASME Y14.100).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Product Definition Data</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.100</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bd68fd3f_fa9d_4257_8430_7db88f8b9263 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_bd68fd3f_fa9d_4257_8430_7db88f8b9263">
@@ -668,6 +959,17 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>A method of mathematical modeling that frames a process with many parameters and calculates an exact solution without computer simulation.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Analytical model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_c1ba6895_896d_48be_92d8_bc18c51b93f2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_c1ba6895_896d_48be_92d8_bc18c51b93f2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0cae7427_d1d2_4364_8b9b_70136a0ae542"/>
+        <rdfs:comment>an annotated model in which the product described is an installation, showing parts or assemblies and a partial or complete representation of the installation site.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Installation Model</rdfs:label>
     </owl:Class>
     
 
@@ -768,6 +1070,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_daaeb3fc_74e5_4ade_acd3_0d7809b79d41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_daaeb3fc_74e5_4ade_acd3_0d7809b79d41">
+        <rdfs:comment>ASME Y14.41</rdfs:comment>
+        <rdfs:comment>a conceptual plane containing annotation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Annotation Plane</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_dfb696b2_d232_49a1_8e80_da15a1854dcc -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_dfb696b2_d232_49a1_8e80_da15a1854dcc">
@@ -801,6 +1113,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
     
 
 
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e204fdf3_c5ac_4ed7_9b56_fd720ad042fb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e204fdf3_c5ac_4ed7_9b56_fd720ad042fb">
+        <rdfs:comment>a collection of one or more data file(s) that discloses, directly or by reference, by means of presentation (e.g., graphic or textual), representation (e.g., semantics or machine readable), or combinations of both, the physical or functional requirements of an item.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Product Definition Data Set</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e363679b_05aa_4fa0_abb1_d029ade085d5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e363679b_05aa_4fa0_abb1_d029ade085d5">
@@ -818,6 +1140,27 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>The business function, often within product lifecycle management (PLM), that is responsible for the management and publication of product data.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Product data management (PDM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e753bc36_febf_4fb7_be91_c3541271ba8a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e753bc36_febf_4fb7_be91_c3541271ba8a">
+        <rdfs:comment>a nonspecific term used to denote any unit or product including materials, parts, assemblies, equipment, accessories, and computer software (ASME Y14.100).</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Item</rdfs:label>
+        <rdfs:seeAlso>ASME Y14.100</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e8754a41_4314_492d_9d36_d492526cfad7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_e8754a41_4314_492d_9d36_d492526cfad7">
+        <rdfs:comment>geometric element, feature, group of features, annotation, associated group, or attribute that exists in a data set.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Digital Element</rdfs:label>
     </owl:Class>
     
 
@@ -840,6 +1183,27 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>An approach to MBE that uses models to generate test cases and support the verification and validation of systems.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Model-based testing (MBT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_efc68d75_f5f5_43d0_ae6b_f28c7842269a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_efc68d75_f5f5_43d0_ae6b_f28c7842269a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_0cae7427_d1d2_4364_8b9b_70136a0ae542"/>
+        <rdfs:comment>an annotated model in which the product described is an assembly of two or more items.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Assembly Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f27513cf_1dbc_4823_869e_c81be4f52d02 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_f27513cf_1dbc_4823_869e_c81be4f52d02">
+        <rdfs:comment>a partial or complete datum reference frame.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Datum System</rdfs:label>
     </owl:Class>
     
 
@@ -963,6 +1327,16 @@ Added MIL-HDBK-539 terms and definitions and constructed taxonomy.</owl:versionI
         <rdfs:comment>A set of software development practices that combines software development (Dev), security (Sec), and information technology operations (Ops) to secure the outcome and shorten the development lifecycle. DevSecOps supports a Government reference architecture (GRA), or Government-owned reference architecture definition.</rdfs:comment>
         <rdfs:isDefinedBy>MIL-HDBK-539</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">DevSecOps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ffd422b2_b8c0_43ac_a16b_080c9245194d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarahrudder/ontologies/2026/2/Digital_Engineering_Ecosystem/MONDO_ffd422b2_b8c0_43ac_a16b_080c9245194d">
+        <rdfs:comment>a user-defined set of related digital elements.</rdfs:comment>
+        <rdfs:isDefinedBy>ASME Y14.41</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Associated Group</rdfs:label>
     </owl:Class>
     
 
